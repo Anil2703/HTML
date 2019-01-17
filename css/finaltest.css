@@ -1,0 +1,119 @@
+h1{
+    font-weight: normal;
+}
+header{
+    text-align: center;
+}
+header h1{
+        margin-bottom: 0;
+}
+header p{
+    margin-top: 0;
+}
+html{
+    background-color: rgb(79, 122, 73);
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    border-top: 3px solid rgb(123, 201, 112);
+    border-bottom: 3px solid rgb(123, 201, 112);
+    background-color: rgb(147, 194, 135);
+    padding: 20px;
+}
+.main-area{
+    margin-bottom: 25px;
+    float: left;
+    width: 66%;
+    
+}
+
+.side-bar{
+    width: 34%;
+    float: left;
+    background-color: rgb(123, 201, 112);
+    
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /* site-nav */
+
+  .site-nav{
+      max-width: 800px;
+      /* margin: auto; */
+      margin-left: 205px;
+  }
+  .site-nav li{
+      list-style: none;
+      float: left;
+      margin: 10px;
+  }
+  .site-nav a{
+      text-decoration: none;
+      color: aqua;
+      border: 3px solid rgb(123, 201, 112);
+      padding: 15px;
+      border-bottom:none; 
+  }
+
+  .site-nav a:hover{
+      background-color: rgb(55, 160, 69);
+  }
+
+
+  /* image */
+
+  .image-desc{
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      max-width: 450px;
+      color: white;
+      background-color: rgba(0, 0, 0,.65);
+  }
+  .image-banner{
+      position: relative;
+  }
+
+/* Table Styles */
+
+table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 90%;
+}
+table th{
+    text-align: left;
+    background-color: rgb(36, 179, 55);
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.4);
+}
+table th,
+table td{
+    border: 1px solid rgb(55, 160, 69);
+    padding: 10px;
+}
+
+table tbody tr:nth-child(odd) td{
+    background-color: rgb(128, 202, 118);
+}
+
+
+/* table tbody tr:nth-child(even) td{
+    background-color: rgb(42, 117, 52);
+} */
+  /* table {
+    border: 3px solid black;
+  }
+  table td {
+      border: 3px solid black;
+    
+  }
+  
+  } */
